@@ -1,0 +1,28 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/quaver_blue.png" type="Texture" id=1]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/quaver.gd" type="Script" id=2]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/bemol_quaver.png" type="Texture" id=3]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/below_normal_quaver.png" type="Texture" id=4]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/center_normal_quaver.png" type="Texture" id=5]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/below_bemol_quaver.png" type="Texture" id=6]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/center_bemol_quaver.png" type="Texture" id=7]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/upper_normal_quaver.png" type="Texture" id=8]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/upper_bemol_quaver.png" type="Texture" id=9]
+
+[node name="Quaver" type="TextureRect"]
+anchor_right = 0.178
+anchor_bottom = 0.179
+margin_right = 2.84
+margin_bottom = -0.12001
+texture = ExtResource( 1 )
+expand = true
+script = ExtResource( 2 )
+bemol_texture = ExtResource( 3 )
+normal_texture = ExtResource( 1 )
+center_normal_texture = ExtResource( 5 )
+below_normal_texture = ExtResource( 4 )
+upper_normal_texture = ExtResource( 8 )
+center_bemol_texture = ExtResource( 7 )
+below_bemol_texture = ExtResource( 6 )
+upper_bemol_texture = ExtResource( 9 )

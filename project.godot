@@ -20,6 +20,8 @@ GlobalConstants="*res://scenes_and_scripts/gl_singl__global_constants/global_con
 ScreenManager="*res://scenes_and_scripts/gl_singl__screen_manager/screen_manager.gd"
 AnimatedSceneManager="*res://scenes_and_scripts/gl_singl__animated_scene_manager/animated_scene_manager.gd"
 ObjectAnimationsRepository="*res://scenes_and_scripts/gl_singl__object_animations_repository/object_animations_repository.gd"
+Signals="*res://scenes_and_scripts/gl_singl__signals/signals.gd"
+SoundGenerator="*res://scenes_and_scripts/gl_singl__sound_generator/sound_generator.gd"
 
 [display]
 
@@ -28,6 +30,10 @@ window/size/height=1280
 window/handheld/orientation="portrait"
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
+
+[gdnative]
+
+singletons=[  ]
 
 [physics]
 

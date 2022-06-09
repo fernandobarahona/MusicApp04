@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/blank_staff.png" type="Texture" id=1]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/g_key.png" type="Texture" id=2]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/quaver.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes_and_scripts/screen__game/staff/staff.gd" type="Script" id=4]
+
+[node name="Staff" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 0.637
+margin_bottom = -0.360046
+script = ExtResource( 4 )
+
+[node name="Staff_Rect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 16.0
+margin_right = 16.0
+rect_min_size = Vector2( 720, 480 )
+texture = ExtResource( 1 )
+stretch_mode = 1
+
+[node name="GKeyRect" type="TextureRect" parent="."]
+anchor_top = 0.167
+anchor_right = 0.222
+anchor_bottom = 0.9
+margin_top = -0.272003
+margin_right = 80.16
+margin_bottom = -0.399963
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 5
+
+[node name="Quaver" parent="." instance=ExtResource( 3 )]
+margin_left = 344.0
+margin_top = 56.0
+margin_right = 346.84
+margin_bottom = 55.88
